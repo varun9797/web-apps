@@ -3,14 +3,17 @@ import ProgressBarIndex from './components/progressBar/progressBarIndex'
 import OtpInputIndex from './components/otpInput/otpInputIndex'
 
 import './App.css'
+import RecursiveCheckboxes from './components/recursiveCheckboxes/recursiveCheckboxes'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <ProgressBarIndex />
+      {/* <ProgressBarIndex />
       <OtpInputIndex />
+      <Recurssion /> */}
+      <RecursiveCheckboxes />
     </>
   )
 }
