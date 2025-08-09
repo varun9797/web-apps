@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import ProgressBarIndex from './components/progressBar/progressBarIndex'
 import OtpInputIndex from './components/otpInput/otpInputIndex'
+import CommonEmployee from './components/recursiveCheckboxes/commonEmployee'
 
 import './App.css'
-import RecursiveCheckboxes from './components/recursiveCheckboxes/recursiveCheckboxes'
+import RecursiveCheckboxes from './components/recursiveCheckboxes/recursiveCheckboxes';
+import InputChips from './components/inputChips/inputChips'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +15,9 @@ function App() {
       {/* <ProgressBarIndex />
       <OtpInputIndex />
       <Recurssion /> */}
-      <RecursiveCheckboxes />
+      {/* <RecursiveCheckboxes /> */}
+      {/* <CommonEmployee /> */}
+      <InputChips />
     </>
   )
 }
