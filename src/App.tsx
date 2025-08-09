@@ -6,6 +6,7 @@ import CommonEmployee from './components/recursiveCheckboxes/commonEmployee'
 import './App.css'
 import RecursiveCheckboxes from './components/recursiveCheckboxes/recursiveCheckboxes';
 import InputChips from './components/inputChips/inputChips'
+import TodoList from './components/todoList/index'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +18,8 @@ function App() {
       <Recurssion /> */}
       {/* <RecursiveCheckboxes /> */}
       {/* <CommonEmployee /> */}
-      <InputChips />
+      {/* <InputChips /> */}
+      {<TodoList />}
     </>
   )
 }
